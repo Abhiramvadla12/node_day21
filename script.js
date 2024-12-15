@@ -1,6 +1,6 @@
 let btn = document.getElementById("btn");
 let demo = document.getElementById("demo");
-window.alert("please express server for the files index.js,tableempty.js,fetch_api.js,delete_api.js,edit_api.js")
+window.alert("please run express server for the files index.js,tableempty.js,fetch_api.js,delete_api.js,edit_api.js")
 //emptying the table on dom content loaded
 window.addEventListener("DOMContentLoaded",async()=>{
   let response = await fetch("http://localhost:3009")
